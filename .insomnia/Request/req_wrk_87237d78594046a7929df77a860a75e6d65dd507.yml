@@ -1,0 +1,29 @@
+_id: req_wrk_87237d78594046a7929df77a860a75e6d65dd507
+type: Request
+parentId: fld_wrk_87237d78594046a7929df77a860a75e69b466094
+modified: 1602869543401
+created: 1601295385794
+url: "{{ base_url }}/post"
+name: Create a post
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "title": "string",
+      "content": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1601295385794
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

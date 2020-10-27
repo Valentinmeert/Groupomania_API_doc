@@ -1,0 +1,28 @@
+_id: req_wrk_87237d78594046a7929df77a860a75e6649e00e2
+type: Request
+parentId: fld_wrk_87237d78594046a7929df77a860a75e66b810c90
+modified: 1602869543215
+created: 1601295385716
+url: "{{ base_url }}/post/{{ postId }}/react/{{ reactId }}"
+name: Update a react
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1601295385716
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

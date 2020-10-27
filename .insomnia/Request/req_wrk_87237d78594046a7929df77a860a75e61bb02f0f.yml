@@ -1,0 +1,31 @@
+_id: req_wrk_87237d78594046a7929df77a860a75e61bb02f0f
+type: Request
+parentId: fld_wrk_87237d78594046a7929df77a860a75e612dea96f
+modified: 1602869543449
+created: 1600864112256
+url: "{{ base_url }}/user/{{ userId }}"
+name: Update a user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "firstName": "string",
+      "lastName": "string",
+      "email": "user@example.com",
+      "password": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1600864112256
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

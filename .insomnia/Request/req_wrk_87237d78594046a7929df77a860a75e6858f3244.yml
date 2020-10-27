@@ -1,0 +1,29 @@
+_id: req_wrk_87237d78594046a7929df77a860a75e6858f3244
+type: Request
+parentId: fld_wrk_87237d78594046a7929df77a860a75e69b466094
+modified: 1602869543339
+created: 1601295385768
+url: "{{ base_url }}/post/{{ postId }}"
+name: Update a post
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "title": "string",
+      "content": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1601295385768
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

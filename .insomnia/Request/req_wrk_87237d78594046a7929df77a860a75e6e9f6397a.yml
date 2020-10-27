@@ -1,0 +1,21 @@
+_id: req_wrk_87237d78594046a7929df77a860a75e6e9f6397a
+type: Request
+parentId: fld_wrk_87237d78594046a7929df77a860a75e69b466094
+modified: 1602869543382
+created: 1601295385786
+url: "{{ base_url }}/post/root"
+name: Get all posts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601295385786
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

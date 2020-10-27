@@ -1,0 +1,21 @@
+_id: req_30f28bcd45ad4860b302a978d92d448b
+type: Request
+parentId: fld_wrk_87237d78594046a7929df77a860a75e69b466094
+modified: 1602763909120
+created: 1602680440006
+url: http://localhost:3000/api/v1/post/root/52
+name: Get a User with post
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601295385844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
